@@ -1,0 +1,132 @@
+.contactUsComponent {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-section {
+    padding-top: 110px;
+    padding-bottom: 135px;
+    height: 100%;
+    &-title {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 65px;
+      color: #272727;
+      text-align: center;
+    }
+    &-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 154px;
+      padding-bottom: 75px;
+      gap: 130px;
+      &-img {
+        width: 100%;
+        &-contactUs {
+          width: 100%;
+        }
+      }
+      &-getInTouch {
+        width: 100%;
+
+        &-title {
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 65px;
+
+          color: #353535;
+        }
+        &-inputs {
+          display: flex;
+          flex-direction: column;
+          width: 346px;
+          gap: 20px;
+          padding-top: 40px;
+          padding-bottom: 50px;
+          &-item {
+            border: none;
+            background: #f4f2ed;
+            border-radius: 12px;
+
+            height: 65px;
+            max-width: 345px;
+            width: 100%;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #bbbbbb;
+            padding: 0 30px;
+          }
+        }
+        &-submit {
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 25px;
+          color: #ffffff;
+          padding: 15px 55px;
+          background: #354047;
+          border-radius: 8px;
+        }
+      }
+    }
+    &-logo {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      &-circle {
+        width: 70px;
+        height: 70px;
+        background: #354047;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-item {
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 49px;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+    }
+    &-copyRight {
+      text-align: center;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 40px;
+      color: #272727;
+      padding-top: 85px;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .contactUsComponent {
+    height: 100%;
+    &-section {
+      padding-top: 70px;
+      padding-bottom: 70px;
+      &-container {
+        padding-top: 70px;
+        padding-bottom: 70px;
+      }
+
+      &-copyRight {
+        padding-top: 35px;
+      }
+    }
+  }
+}

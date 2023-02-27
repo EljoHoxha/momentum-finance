@@ -1,0 +1,80 @@
+.footer {
+  background: #f4f2ed;
+  &-section {
+    margin: 0 auto;
+    padding: 170px 0 60px 0;
+    &-container {
+      padding-bottom: 100px;
+      display: flex;
+      justify-content: space-between;
+      gap: 100px;
+      &-logo {
+        // width: 100%;
+        &-momentumFinance {
+          margin-bottom: 65px;
+          cursor: pointer;
+        }
+        &-group {
+          display: flex;
+          justify-content: space-between;
+          &-circle {
+            cursor: pointer;
+            width: 70px;
+            height: 70px;
+            background: #354047;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &-item {
+              font-family: "Open Sans";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 36px;
+              line-height: 49px;
+              text-align: center;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+      &-text {
+        display: flex;
+        justify-content: space-between;
+        max-width: 460px;
+        width: 100%;
+        gap: 50px;
+        gap: 50px;
+        &-menu {
+          &-title {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 40px;
+
+            color: #272727;
+          }
+          &-item {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 50px;
+            cursor: pointer;
+            color: #272727;
+          }
+        }
+      }
+    }
+    &-copyRight {
+      text-align: center;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 40px;
+      color: #272727;
+    }
+  }
+}

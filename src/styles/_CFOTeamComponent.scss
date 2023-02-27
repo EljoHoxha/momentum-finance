@@ -1,0 +1,70 @@
+.cfoTeam {
+  padding-top: 110px;
+  background: #f4f2ed;
+  &-section {
+    &-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 50px;
+      &-container {
+        max-width: 712px;
+        width: 100%;
+        &-title {
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 36px;
+          line-height: 70px;
+
+          color: #272727;
+        }
+        &-description {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          gap: 50px;
+          &-text {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 40px;
+
+            color: #272727;
+          }
+        }
+        &-btn {
+          margin: 0 auto;
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 25px;
+          color: #ffffff;
+          padding: 15px 50px;
+          background: #354047;
+          border-radius: 8px;
+        }
+      }
+      &-img {
+        width: 100%;
+        &-cfo {
+          width: 100%;
+        }
+      }
+    }
+    &-body {
+      padding-top: 145px;
+      &-title {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 70px;
+        color: #272727;
+        text-align: center;
+      }
+    }
+  }
+}

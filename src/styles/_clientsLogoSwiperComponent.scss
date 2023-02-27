@@ -1,0 +1,23 @@
+.clientsLogoSwiper {
+  padding: 95px 0;
+  &-section {
+    &-swiper {
+      .swiper {
+        &-wrapper {
+          display: flex;
+          align-content: center;
+          align-items: center;
+        }
+      }
+      width: 100%;
+      &-wrapper {
+        max-width: 272px;
+        width: 100%;
+        &-icon {
+          max-width: 272px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+.textSwiper {
+  padding-top: 100px;
+  &-section {
+    &-head {
+      text-align: center;
+      &-title {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 65px;
+
+        color: #272727;
+      }
+      &-subTitle {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 65px;
+        color: #272727;
+        margin-top: 15px;
+        margin-bottom: 25px;
+      }
+      &-text {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 70px;
+
+        text-align: center;
+
+        color: #272727;
+      }
+    }
+    &-swiper {
+      margin-top: 95px;
+      max-width: 1600px;
+      width: 100%;
+      &-wrapper {
+        &-description {
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 36px;
+          line-height: 55px;
+          color: #555555;
+        }
+        &-name {
+          margin-top: 50px;
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 55px;
+          color: #000000;
+          float: right;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .textSwiper {
+    padding-top: 100px;
+    &-section {
+      &-head {
+        text-align: center;
+        &-title {
+          font-size: 50px;
+          line-height: 40px;
+        }
+        &-subTitle {
+          font-size: 40px;
+          line-height: 50px;
+        }
+        &-text {
+          font-size: 28px;
+          line-height: 45px;
+        }
+      }
+      &-swiper {
+        margin-top: 40px;
+        max-width: 1600px;
+        width: 100%;
+        &-wrapper {
+          &-description {
+            font-size: 28px;
+            line-height: 45px;
+          }
+          &-name {
+            margin-top: 35px;
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 55px;
+            color: #000000;
+            float: right;
+          }
+        }
+      }
+    }
+  }
+}

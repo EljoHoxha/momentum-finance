@@ -1,0 +1,16 @@
+.logoSwiper {
+  padding: 75px 0;
+
+  &-section {
+    &-swiper {
+      .swiper {
+        width: 100%;
+        &-wrapper {
+          display: flex;
+          align-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
