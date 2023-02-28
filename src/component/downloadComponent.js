@@ -14,23 +14,26 @@ const DownloadComponent = () => {
             </h1>
           </div>
           <div className="download-section-body">
-            <input
-              className="download-section-body-input"
-              placeholder="First name"
-            />
-            <input
-              className="download-section-body-input"
-              placeholder="Last name"
-            />
-            <input
-              className="download-section-body-input"
-              placeholder="Email"
-            />
-
-            <button className="download-section-body-btn">
-              <img src={DownArrow} />
-              <p>Download</p>
-            </button>
+            <div className="download-section-body-group">
+              <input
+                className="download-section-body-input"
+                placeholder="First name"
+              />
+              <input
+                className="download-section-body-input"
+                placeholder="Last name"
+              />
+            </div>
+            <div className="download-section-body-group">
+              <input
+                className="download-section-body-input"
+                placeholder="Email"
+              />
+              <button className="download-section-body-btn">
+                <img src={DownArrow} />
+                <p>Download</p>
+              </button>
+            </div>
           </div>
         </div>
       </div>

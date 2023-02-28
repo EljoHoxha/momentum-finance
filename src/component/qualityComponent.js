@@ -25,19 +25,24 @@ const QualityComponent = () => {
           </h1>
           <ul className="quality-frustrated-content-list">
             <li className="quality-frustrated-content-list-item">
-              Struggling to keep investors confident with your reporting?
+              <span className="quality-frustrated-content-list-item-circle" />
+              <p>Struggling to keep investors confident with your reporting?</p>
             </li>
             <li className="quality-frustrated-content-list-item">
+              {/* <span className="quality-frustrated-content-list-item-circle" /> */}
               Confusing reports that do not reveal the KPIs that matter?
             </li>
             <li className="quality-frustrated-content-list-item">
-              Financials that don’t match the narrative of the business?
+              <span className="quality-frustrated-content-list-item-circle" />
+              <p>Financials that don’t match the narrative of the business?</p>
             </li>
             <li className="quality-frustrated-content-list-item">
-              Lacking the time to properly handle the books?
+              <span className="quality-frustrated-content-list-item-circle" />
+              <p>Lacking the time to properly handle the books?</p>
             </li>
             <li className="quality-frustrated-content-list-item">
-              Processing Accounts Payable / AR?
+              <span className="quality-frustrated-content-list-item-circle" />
+              <p> Processing Accounts Payable / AR?</p>
             </li>
           </ul>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import MomentumFinance from "../logo/MomentumFinance-logo.svg";
-const Navbar = ({ learnAboutUs, comehome }) => {
+const Navbar = ({ learnAboutUs, comehome, onContactUs }) => {
   return (
     <div className="navbar" ref={comehome}>
       <div className="full-container">
@@ -17,7 +17,9 @@ const Navbar = ({ learnAboutUs, comehome }) => {
             <p onClick={learnAboutUs} className="navbar-section-item-text">
               About Us
             </p>
-            <button className="navbar-section-item-btn">Scedule a Call</button>
+            <button onClick={onContactUs} className="navbar-section-item-btn">
+              Schedule a Call
+            </button>
           </div>
         </div>
       </div>

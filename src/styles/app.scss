@@ -13,6 +13,11 @@
   overflow: hidden;
 }
 
+@media (max-width: 750px) {
+  .full-container {
+    padding: 0 40px;
+  }
+}
 @import "_navbar";
 @import "_homeComponent";
 @import "_qualityComponent";

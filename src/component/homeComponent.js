@@ -1,10 +1,14 @@
 import React from "react";
 import Navbar from "./navbar";
 
-const HomeComponent = ({ homeOnLearnAboutUs, homePage }) => {
+const HomeComponent = ({ homeOnLearnAboutUs, homePage, clickContactUs }) => {
   return (
-    <div className="home">
-      <Navbar learnAboutUs={homeOnLearnAboutUs} comeHomePage={homePage} />
+    <div className="home" ref={homePage}>
+      <Navbar
+        learnAboutUs={homeOnLearnAboutUs}
+        comeHomePage={homePage}
+        onContactUs={clickContactUs}
+      />
       <div className="full-container">
         <div className="home-section">
           <div className="home-section-container">

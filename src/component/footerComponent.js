@@ -1,6 +1,10 @@
 import React from "react";
 import MomentumFinance from "../logo/MomentumFinance-logo-footer.svg";
-const FooterComponent = ({ homeOnLearnAboutUs, goHomePage }) => {
+const FooterComponent = ({
+  homeOnLearnAboutUs,
+  goHomePage,
+  clickContactUs,
+}) => {
   return (
     <div className="footer">
       <div className="full-container">
@@ -46,7 +50,10 @@ const FooterComponent = ({ homeOnLearnAboutUs, goHomePage }) => {
                 <p className="footer-section-container-text-menu-item">
                   Services Page
                 </p>
-                <p className="footer-section-container-text-menu-item">
+                <p
+                  onClick={clickContactUs}
+                  className="footer-section-container-text-menu-item"
+                >
                   Contact
                 </p>
               </div>

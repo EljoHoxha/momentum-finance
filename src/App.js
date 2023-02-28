@@ -39,7 +39,11 @@ function App() {
   };
   return (
     <div className="App">
-      <HomeComponent homeOnLearnAboutUs={homeOnLearnAboutUs} home={home} />
+      <HomeComponent
+        homeOnLearnAboutUs={homeOnLearnAboutUs}
+        homePage={home}
+        clickContactUs={clickContactUs}
+      />
       <QualityComponent />
       <TextSwiperComponent />
       <ClientsLogoSwiperComponent />
@@ -52,6 +56,7 @@ function App() {
       <FooterComponent
         homeOnLearnAboutUs={homeOnLearnAboutUs}
         goHomePage={goHomePage}
+        clickContactUs={clickContactUs}
       />
       <ContactUsComponent contactUs={contactUs} />
       <SubscribeComponent />

@@ -18,7 +18,6 @@
     }
   }
   &-frustrated {
-    // background: #ad0c0c;
     width: 100vw;
     position: relative;
     right: 0;
@@ -32,13 +31,17 @@
       &-img {
         margin-left: 50px;
         max-width: 736px;
-        //max-width: 40vw;
-        //width:100%;
+        max-height: 636px;
+        height: auto;
+
+        width: 100%;
         &-frustrated {
           max-width: 736px;
           width: 100%;
-          //max-width: 40vw;
-          //width:100%;
+          max-height: 636px;
+          height: auto;
+
+          width: 100%;
         }
       }
 
@@ -55,12 +58,12 @@
       &-questions {
         max-width: 1080px;
         width: 100%;
-        //max-width: 60vw;
-        //width:100%;
+        max-width: 60vw;
+        width: 100%;
       }
       &-list {
         padding: 25px;
-        padding-left: 25px;
+        padding-left: 45px;
         padding-right: 15px;
         list-style-position: inside;
         border-top: 3px solid rgba(0, 0, 0, 1);
@@ -74,14 +77,15 @@
           font-size: 32px;
           line-height: 44px;
           color: #272727;
-          padding: 25px 0;
+          padding-bottom: 25px;
+          list-style-position: outside;
         }
       }
     }
   }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1900px) {
   .quality {
     &-head {
       &-content {
@@ -99,11 +103,18 @@
 
       &-content {
         &-img {
-          margin-left: 40px;
-          max-width: 40vw;
+          margin-left: 50px;
+          max-width: 736px;
+          max-height: 600px;
+          height: auto;
+
           width: 100%;
           &-frustrated {
-            max-width: 60vw;
+            max-width: 736px;
+            width: 100%;
+            max-height: 600px;
+            height: auto;
+
             width: 100%;
           }
         }
@@ -114,12 +125,8 @@
           line-height: 50px;
           margin-bottom: 30px;
         }
-        // &-questions {
-        //   max-width: 1080px;
-        //   width: 100%;
-        // }
+
         &-list {
-          padding: 25px 15px;
           &-item {
             font-weight: 600;
             font-size: 25px;
@@ -131,14 +138,12 @@
     }
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .quality {
     &-head {
       &-content {
         &-item {
           font-size: 25px;
-          // line-height: 44px;
-          // padding: 15px 0;
         }
       }
     }
@@ -150,12 +155,6 @@
       &-content {
         &-img {
           margin-left: 20px;
-          // max-width: 40vw;
-          // width: 100%;
-          &-frustrated {
-            // max-width: 60vw;
-            // width: 100%;
-          }
         }
 
         &-title {
@@ -164,18 +163,71 @@
           line-height: 50px;
           margin-bottom: 30px;
         }
-        // &-questions {
-        //   max-width: 1080px;
-        //   width: 100%;
-        // }
+
         &-list {
-          padding: 25px 15px;
           &-item {
             font-weight: 600;
             font-size: 20px;
             line-height: 34px;
             padding: 5px 0;
           }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .quality {
+    overflow-x: hidden;
+
+    // &-head {
+    //   background: #f4f2ed;
+    //   &-content {
+    //     display: flex;
+    //     justify-content: space-around;
+    //     &-item {
+    //       font-family: "Open Sans";
+    //       font-style: normal;
+    //       font-weight: 600;
+    //       font-size: 40px;
+    //       line-height: 54px;
+    //       color: #555555;
+    //       padding: 25px 0;
+    //     }
+    //   }
+    // }
+    &-frustrated {
+      width: 100vw;
+
+      display: flex;
+      flex-direction: column;
+
+      align-items: flex-end;
+      justify-content: center;
+      margin-top: 40px;
+
+      &-content {
+        padding-left: 30px;
+
+        &-questions {
+          max-width: 1080px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .quality {
+    &-head {
+      &-content {
+        &-item {
+          font-size: 20px;
+          line-height: 35px;
+
+          padding: 15px 0;
         }
       }
     }

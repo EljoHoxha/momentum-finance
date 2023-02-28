@@ -5,7 +5,7 @@
     &-head {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
       gap: 50px;
       &-container {
         max-width: 712px;
@@ -64,6 +64,92 @@
         line-height: 70px;
         color: #272727;
         text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+  .cfoTeam {
+    &-section {
+      &-head {
+        gap: 20px;
+        &-container {
+          &-title {
+            font-size: 30px;
+            line-height: 45px;
+          }
+          &-description {
+            gap: 30px;
+            &-text {
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 35px;
+
+              color: #272727;
+            }
+          }
+          &-btn {
+            margin: 0 auto;
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+            color: #ffffff;
+            padding: 15px 50px;
+            background: #354047;
+            border-radius: 8px;
+          }
+        }
+        &-img {
+          width: 100%;
+          &-cfo {
+            width: 100%;
+          }
+        }
+      }
+      &-body {
+        padding-top: 145px;
+        &-title {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .cfoTeam {
+    // padding-top: 110px;
+    // background: #f4f2ed;
+    &-section {
+      &-head {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        // &-container {
+        //   &-title {
+        //     text-align: center;
+        //   }
+        //   &-description {
+        //     text-align: center;
+        //   }
+        // }
+      }
+      &-body {
+        padding-top: 145px;
+        &-title {
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 70px;
+          color: #272727;
+          text-align: center;
+        }
       }
     }
   }

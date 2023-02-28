@@ -152,3 +152,38 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .controllFinance {
+    &-head {
+      &-title {
+        font-size: 30px;
+        line-height: 40px;
+      }
+      &-subTitle {
+        font-size: 25px;
+        line-height: 35px;
+      }
+    }
+    &-body {
+      &-item {
+        &-title {
+          font-size: 30px;
+          line-height: 35px;
+          margin-bottom: 20px;
+        }
+        &-description {
+          padding-top: 10px;
+          font-size: 20px;
+          line-height: 28px;
+        }
+        &-img {
+          max-width: 480px;
+          width: 100%;
+          height: 186px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
