@@ -20,11 +20,6 @@ const FooterComponent = ({
               <div className="footer-section-container-logo-group">
                 <span className="footer-section-container-logo-group-circle">
                   <p className="footer-section-container-logo-group-circle-item">
-                    F
-                  </p>
-                </span>
-                <span className="footer-section-container-logo-group-circle">
-                  <p className="footer-section-container-logo-group-circle-item">
                     T
                   </p>
                 </span>

@@ -39,9 +39,6 @@ const ContactUsComponent = ({ contactUs }) => {
           </div>
           <div className="contactUsComponent-section-logo">
             <span className="contactUsComponent-section-logo-circle">
-              <p className="contactUsComponent-section-logo-circle-item">F</p>
-            </span>
-            <span className="contactUsComponent-section-logo-circle">
               <p className="contactUsComponent-section-logo-circle-item">T</p>
             </span>
             <span className="contactUsComponent-section-logo-circle">
