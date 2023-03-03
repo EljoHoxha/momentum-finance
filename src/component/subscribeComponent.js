@@ -3,7 +3,7 @@ import React from "react";
 const SubscribeComponent = () => {
   return (
     <div className="subscribe">
-      <div className="full-container">
+      <div className="subscribe-container">
         <div className="subscribe-section">
           <button className="subscribe-section-btn">Subscribe</button>
           <div className="subscribe-section-container">
@@ -17,11 +17,6 @@ const SubscribeComponent = () => {
             </div>
             <div className="subscribe-section-container-footer">
               <div className="subscribe-section-container-footer-logo">
-                <span className="subscribe-section-container-footer-logo-circle">
-                  <p className="subscribe-section-container-footer-logo-circle-item">
-                    F
-                  </p>
-                </span>
                 <span className="subscribe-section-container-footer-logo-circle">
                   <p className="subscribe-section-container-footer-logo-circle-item">
                     T

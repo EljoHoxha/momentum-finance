@@ -1,72 +1,153 @@
 .subscribe {
   height: 100%;
   position: relative;
-  &-section {
-    &-btn {
-      font-family: "Open Sans";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 25px;
-      color: #ffffff;
-      padding: 15px 55px;
-      background: #354047;
-      border-radius: 8px;
-      margin-left: 85%;
-      margin-bottom: 70px;
-    }
-    &-container {
-      height: 85vh;
-      padding-bottom: 100px;
+  .subscribe-container {
+    max-width: 1640px;
+    margin: 0 auto;
+
+    .subscribe-section {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      &-head {
-        margin: 0 auto;
-        text-align: center;
-        &-title {
-          font-family: "Open Sans";
-          font-style: normal;
-          font-weight: 700;
-          font-size: 48px;
-          line-height: 65px;
+      &-btn {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #ffffff;
+        padding: 15px 55px;
+        background: #354047;
+        border-radius: 8px;
+        // margin-left: 85%;
+        margin-bottom: 70px;
+        margin-right: 30px;
+        align-self: flex-end;
+      }
+      &-container {
+        height: 85vh;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &-head {
+          margin: 0 auto;
+          text-align: center;
+          &-title {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: auto;
 
-          color: #272727;
+            color: #272727;
+          }
+        }
+        &-footer {
+          &-logo {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            &-circle {
+              width: 70px;
+              height: 70px;
+              background: #354047;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              &-item {
+                font-family: "Open Sans";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 49px;
+                text-align: center;
+                color: #ffffff;
+              }
+            }
+          }
+          &-copyRight {
+            text-align: center;
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 40px;
+            color: #272727;
+            padding-top: 85px;
+          }
         }
       }
-      &-footer {
-        &-logo {
-          display: flex;
-          justify-content: center;
-          gap: 50px;
-          &-circle {
-            width: 70px;
-            height: 70px;
-            background: #354047;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            &-item {
-              font-family: "Open Sans";
-              font-style: normal;
-              font-weight: 700;
-              font-size: 36px;
-              line-height: 49px;
-              text-align: center;
-              color: #ffffff;
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .subscribe {
+    .subscribe-container {
+      .subscribe-section {
+        &-btn {
+          font-weight: 600;
+          font-size: 18px;
+          padding: 15px 40px;
+          align-self: center;
+          margin-right: 0;
+          margin-bottom: 50px;
+        }
+        &-container {
+          &-head {
+            &-title {
+              font-size: 4vw;
+            }
+          }
+          &-footer {
+            &-logo {
+              &-circle {
+                width: 60px;
+                height: 60px;
+
+                &-item {
+                  font-size: 35px;
+                }
+              }
             }
           }
         }
-        &-copyRight {
-          text-align: center;
-          font-family: "Open Sans";
-          font-style: normal;
-          font-weight: 400;
-          font-size: 24px;
-          line-height: 40px;
-          color: #272727;
-          padding-top: 85px;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .subscribe {
+    .subscribe-container {
+      padding: 0 20px;
+      .subscribe-section {
+        &-btn {
+          font-weight: 600;
+          font-size: 18px;
+          padding: 15px 40px;
+        }
+        &-container {
+          &-head {
+            &-title {
+              font-size: 25px;
+            }
+          }
+          &-footer {
+            &-logo {
+              &-circle {
+                width: 50px;
+                height: 50px;
+
+                &-item {
+                  font-size: 30px;
+                }
+              }
+            }
+            &-copyRight {
+              font-size: 20px;
+            }
+          }
         }
       }
     }
