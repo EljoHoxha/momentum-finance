@@ -1,5 +1,6 @@
 import React from "react";
 import CfoImg from "../images/CFO-TEAM.png";
+import StafImg from "../images/stafImg.png";
 const CFOTeamComponent = ({ aboutUs, clickContactUs }) => {
   return (
     <div className="cfoTeam" ref={aboutUs}>
@@ -40,12 +41,32 @@ const CFOTeamComponent = ({ aboutUs, clickContactUs }) => {
               The Momentum CFO Team
             </h1>
             <div className="cfoTeam-section-body-container">
-              <img alt="" />
-              <img alt="" />
-              <img alt="" />
-              <img alt="" />
-              <img alt="" />
-              <img alt="" />
+              <img
+                className="cfoTeam-section-body-container-img"
+                alt=""
+                src={StafImg}
+              />
+              <img
+                className="cfoTeam-section-body-container-img"
+                alt=""
+                src={StafImg}
+              />
+              <img
+                className="cfoTeam-section-body-container-img"
+                alt=""
+                src={StafImg}
+              />
+              <img
+                className="cfoTeam-section-body-container-img"
+                alt=""
+                src={StafImg}
+              />
+
+              <img
+                className="cfoTeam-section-body-container-img"
+                alt=""
+                src={StafImg}
+              />
             </div>
           </div>
         </div>
